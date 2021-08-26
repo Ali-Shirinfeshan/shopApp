@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/first_group">
+        <item
+            android:id="@+id/home_menu"
+            android:icon="@drawable/ic_home"
+            android:title="خانه">
+
+        </item>
+        <item
+            android:id="@+id/product_list__menu"
+            android:icon="@drawable/ic_second_burger"
+            android:title="لیست دسته بندی محصولات">
+
+        </item>
+
+    </group>
+    <group
+        android:id="@+id/bag_group">
+        <item
+            android:id="@+id/sale_bag__menu"
+            android:icon="@drawable/ic_shop"
+            android:title="سبد خرید"
+            app:actionViewClass="android.widget.TextView" />
+    </group>
+    <group android:id="@+id/second_group">
+        <item
+            android:id="@+id/suggest_menu"
+            android:icon="@drawable/ic_star"
+            android:title="پیشنهاد ویژه دیجی کالا" />
+        <item
+            android:id="@+id/most_sales__menu"
+            android:icon="@drawable/ic_star"
+            android:title="پرفروش ترین ها" />
+        <item
+            android:id="@+id/most_seen__menu"
+            android:icon="@drawable/ic_star"
+            android:title="پر بازدید ترین ها" />
+        <item
+            android:id="@+id/newest_menu"
+            android:icon="@drawable/ic_star"
+            android:title="جدیدترین ها" />
+    </group>
+    <group android:id="@+id/third_group">
+        <item
+            android:id="@+id/setting_menu"
+            android:icon="@drawable/ic_setting"
+            android:title="تنظیمات" />
+        <item
+            android:id="@+id/other_question__menu"
+            android:icon="@drawable/ic_question"
+            android:title="سوالات متداول" />
+        <item
+            android:id="@+id/about_us__menu"
+            android:icon="@drawable/ic_digikala_w"
+            android:title="درباره ما" />
+    </group>
+
+</menu>
